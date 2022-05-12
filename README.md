@@ -11,4 +11,6 @@ Estudos desse site https://www.swiftbysundell.com/articles/
 <p>4 - Uma View com o conteudo criado</p>
 <p>Obs: Creio que precisarei de uma ViewModel com um Router que implementa varias rotas. Pois se tiver varios exercicios terá varias views</p>
 
-
+<h1>Problema 1</h1>
+<p> Nao consegui criar um navigation link um abaixo do outro. Depois de colocar 5 elementos VStack comeca a da erro</p>
+<p> Vou tentar aprender a criar uma listView</p>
