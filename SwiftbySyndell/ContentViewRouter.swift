@@ -10,6 +10,5 @@ enum ContentViewRouter{
     static func makeGuideToTheSwiftUILayoutSystemView() -> some View{
         let viewModel = GuideToTheSwiftUILayoutSystemViewModel()
         return GuideToTheSwiftUILayoutSystemView(viewModel: viewModel)
-        
     }
 }

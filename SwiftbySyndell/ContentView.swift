@@ -10,16 +10,13 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var viewModel: ContentViewModel
     var body: some View {
-        ZStack{
-            VStack{
-                NavigationView{
-                    ScrollView{
-                        VStack{
-                            NavigationLink(destination: viewModel.GuideToTheSwiftUILayoutSystemView, label: {Text("A guide to the SwiftUI layout system")})
-                            
-                        }
-                        
-                    }
+        
+        NavigationView{
+            List(swiftbySyndells){ data in
+                NavigationLink{
+                    viewModel.RecebeUmExercicio(nome: data.name)
+                } label: {
+                    ContentRow(swiftbysindelData: data)
                 }
             }
         }
