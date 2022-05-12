@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel: ContentViewModel
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            VStack{
+                NavigationView{
+                    ScrollView{
+                        VStack{
+                            NavigationLink(destination: viewModel.GuideToTheSwiftUILayoutSystemView, label: {Text("A guide to the SwiftUI layout system")})
+                            
+                        }
+                        
+                    }
+                }
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let viewModel = ContentViewModel()
+        ContentView(viewModel: viewModel)
     }
 }

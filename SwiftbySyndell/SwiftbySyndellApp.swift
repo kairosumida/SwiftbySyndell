@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftbySyndellApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            ContentView(viewModel: ContentViewModel())
         }
     }
 }
