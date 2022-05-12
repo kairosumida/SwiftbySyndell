@@ -14,3 +14,9 @@ Estudos desse site https://www.swiftbysundell.com/articles/
 <h1>Problema 1</h1>
 <p> Nao consegui criar um navigation link um abaixo do outro. Depois de colocar 5 elementos VStack comeca a da erro</p>
 <p> Vou tentar aprender a criar uma listView</p>
+
+<h1> Descoberta </h1>
+Não posso usar list pelo menos não de uma maneira facil, por que cada item da lista, direciona para uma view diferente. E não uma pagina igual que muda apenas alguns campos.
+E ter um arquivo Json com o nome não ajuda em nada
+</p>
+<p> Por isso acredito que List é inviavel </p>
