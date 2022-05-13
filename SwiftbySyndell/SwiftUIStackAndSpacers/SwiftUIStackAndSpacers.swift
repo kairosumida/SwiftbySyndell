@@ -9,7 +9,30 @@ import SwiftUI
 
 struct SwiftUIStackAndSpacers: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .bottomTrailing)
+        {
+            VStack{
+                TopView()
+                Spacer()
+            }
+            Text("A new layer")
+        }.padding()
+    }
+    
+    
+    struct TopView: View{
+        var body: some View{
+            HStack{
+                VStack{
+                    Text("SwiftUI")
+                    Text("Layout")
+                    Spacer()
+                    
+                }
+                Spacer()
+                Image(systemName: "Star")
+            }
+        }
     }
 }
 
