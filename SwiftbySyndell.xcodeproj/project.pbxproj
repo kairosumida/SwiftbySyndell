@@ -69,6 +69,7 @@
 		6BBE5F5F282D68860041B661 /* SwiftbySyndell */ = {
 			isa = PBXGroup;
 			children = (
+				6BBE5FCB282F04380041B661 /* SwiftUIStackAndSpacers */,
 				6BBE5FC8282EE7900041B661 /* ExploreTheBasicOfSwiftUI */,
 				6BBE5FBF282D99920041B661 /* Model */,
 				6BBE5FBC282D99590041B661 /* Resources */,
@@ -140,6 +141,13 @@
 				6BBE5FC9282EE7CE0041B661 /* SwiftUIView.swift */,
 			);
 			path = ExploreTheBasicOfSwiftUI;
+			sourceTree = "<group>";
+		};
+		6BBE5FCB282F04380041B661 /* SwiftUIStackAndSpacers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftUIStackAndSpacers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
