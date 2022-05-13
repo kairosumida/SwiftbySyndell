@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
-
 struct GuideToTheSwiftUILayoutSystemView: View {
-    
-    var body: some GuideToTheSwiftLayoutSystemView.View {
+ var viewModel: GuideToTheSwiftUILayoutSystemViewModel
+    var body: some View {
+        Text("Pagina com erro")
+    }
+}
+/*
+struct GuideToTheSwiftUILayoutSystemView: View {
+ var viewModel: GuideToTheSwiftUILayoutSystemViewModel
+    var body: some View {
         
-        HStack {
+        ZStack {
             EventHeader()
             ImagePlaceholder()
                 .layoutPriority(-1)
@@ -31,7 +37,7 @@ private extension GuideToTheSwiftUILayoutSystemView {
 extension GuideToTheSwiftUILayoutSystemView {
 struct EventHeader{
     var body: some View{
-        HStack(spacing: 15){
+        VStack(spacing: 15){
             CalendarView()
             VStack{
                 Text("Event title").font(.title)
@@ -182,8 +188,9 @@ extension View {
 
 struct GuideToTheSwiftUILayoutSystemView_Previews: PreviewProvider {
     static var previews: some View {
-        
-        GuideToTheSwiftUILayoutSystemView()
+        let viewModel = GuideToTheSwiftUILayoutSystemViewModel()
+        GuideToTheSwiftUILayoutSystemView(viewModel: viewModel)
     }
 }
     
+*/
