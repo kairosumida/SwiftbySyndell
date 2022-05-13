@@ -19,6 +19,7 @@
 		6BBE5FC3282D99BB0041B661 /* SwiftBySindelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC2282D99BB0041B661 /* SwiftBySindelModel.swift */; };
 		6BBE5FC5282D99ED0041B661 /* swiftBySindelData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC4282D99ED0041B661 /* swiftBySindelData.json */; };
 		6BBE5FC7282D9A600041B661 /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC6282D9A600041B661 /* ContentRow.swift */; };
+		6BBE5FCA282EE7CE0041B661 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC9282EE7CE0041B661 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		6BBE5FC2282D99BB0041B661 /* SwiftBySindelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBySindelModel.swift; sourceTree = "<group>"; };
 		6BBE5FC4282D99ED0041B661 /* swiftBySindelData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swiftBySindelData.json; sourceTree = "<group>"; };
 		6BBE5FC6282D9A600041B661 /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
+		6BBE5FC9282EE7CE0041B661 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		6BBE5F5F282D68860041B661 /* SwiftbySyndell */ = {
 			isa = PBXGroup;
 			children = (
+				6BBE5FC8282EE7900041B661 /* ExploreTheBasicOfSwiftUI */,
 				6BBE5FBF282D99920041B661 /* Model */,
 				6BBE5FBC282D99590041B661 /* Resources */,
 				6BBE5F6E282D68930041B661 /* GuideToTheSwiftUILayoutSystem */,
@@ -129,6 +132,14 @@
 				6BBE5FC0282D99A90041B661 /* ModelData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6BBE5FC8282EE7900041B661 /* ExploreTheBasicOfSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE5FC9282EE7CE0041B661 /* SwiftUIView.swift */,
+			);
+			path = ExploreTheBasicOfSwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 				6BBE5F74282D6CCD0041B661 /* ContentViewRouter.swift in Sources */,
 				6BBE5F61282D68860041B661 /* SwiftbySyndellApp.swift in Sources */,
 				6BBE5FC3282D99BB0041B661 /* SwiftBySindelModel.swift in Sources */,
+				6BBE5FCA282EE7CE0041B661 /* SwiftUIView.swift in Sources */,
 				6BBE5FC7282D9A600041B661 /* ContentRow.swift in Sources */,
 				6BBE5F72282D6CB40041B661 /* ContentViewModel.swift in Sources */,
 				6BBE5F79282D6EF20041B661 /* GuideToTheSwiftUILayoutSystemView.swift in Sources */,
