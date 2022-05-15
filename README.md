@@ -19,4 +19,8 @@ Estudos desse site https://www.swiftbysundell.com/articles/
 Não posso usar list pelo menos não de uma maneira facil, por que cada item da lista, direciona para uma view diferente. E não uma pagina igual que muda apenas alguns campos.
 E ter um arquivo Json com o nome não ajuda em nada
 </p>
-<p> Por isso acredito que List é inviavel </p>
+<p>Apesar de List com um arquivo Json não ser tão eficiente para mostrar paginas completamente diferentes</p>
+<p>Usei o seguinte modelo, cada exercicio tem um id. E quando o probrama abre ele mostra todos os exercicos realizados na ordem do id</p>
+<p>Assim que clica em um elemento um switch case verifica o id e direciona para uma pagina criada</p>
+<p>Ou seja, sempre que um exercicio for criado, é necessario criar um case e chamar a view do exercicio</p>
+
