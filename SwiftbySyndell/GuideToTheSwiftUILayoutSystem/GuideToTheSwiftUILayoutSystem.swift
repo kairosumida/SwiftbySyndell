@@ -6,10 +6,9 @@
 //
 
 import SwiftUI
-struct GuideToTheSwiftUILayoutSystemView: View {
- var viewModel: GuideToTheSwiftUILayoutSystemViewModel
+struct GuideToTheSwiftUILayoutSystem: View {
     var body: some View {
-        Text("Pagina com erro")
+        Text("Pagina com erro1")
     }
 }
 /*

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct ExploreTheBasicOfSwiftUI: View {
     
     
     var product: Product = Product(name: "teste", price: 100, image: UIImage(named: "teste.png")!)
@@ -52,8 +52,8 @@ struct SwiftUIView: View {
 
 
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct ExploreTheBasicOfSwiftUI_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        ExploreTheBasicOfSwiftUI()
     }
 }

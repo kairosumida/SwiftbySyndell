@@ -26,6 +26,6 @@ struct ContentRow: View {
 
 struct ContentRow_Previews: PreviewProvider {
     static var previews: some View {
-        ContentRow(swiftbysindelData: swiftbySyndells[0])
+        ContentRow(swiftbysindelData: swiftbySyndells[1])
     }
 }

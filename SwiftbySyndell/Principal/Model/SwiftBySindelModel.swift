@@ -10,6 +10,7 @@ import Foundation
 struct SwiftBySindelModel: Hashable, Codable, Identifiable{
     var id: Int
     var name: String
+    var varName: String
     var startDate: String
     var finishedDate: String
 }

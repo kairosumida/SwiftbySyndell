@@ -13,13 +13,12 @@
 		6BBE5F68282D68870041B661 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE5F67282D68870041B661 /* Preview Assets.xcassets */; };
 		6BBE5F72282D6CB40041B661 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F71282D6CB40041B661 /* ContentViewModel.swift */; };
 		6BBE5F74282D6CCD0041B661 /* ContentViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F73282D6CCD0041B661 /* ContentViewRouter.swift */; };
-		6BBE5F79282D6EF20041B661 /* GuideToTheSwiftUILayoutSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F78282D6EF20041B661 /* GuideToTheSwiftUILayoutSystemView.swift */; };
-		6BBE5F7B282D6F090041B661 /* GuideToTheSwiftUILayoutSystemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F7A282D6F090041B661 /* GuideToTheSwiftUILayoutSystemViewModel.swift */; };
+		6BBE5F79282D6EF20041B661 /* GuideToTheSwiftUILayoutSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F78282D6EF20041B661 /* GuideToTheSwiftUILayoutSystem.swift */; };
 		6BBE5FC1282D99A90041B661 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC0282D99A90041B661 /* ModelData.swift */; };
 		6BBE5FC3282D99BB0041B661 /* SwiftBySindelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC2282D99BB0041B661 /* SwiftBySindelModel.swift */; };
 		6BBE5FC5282D99ED0041B661 /* swiftBySindelData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC4282D99ED0041B661 /* swiftBySindelData.json */; };
 		6BBE5FC7282D9A600041B661 /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC6282D9A600041B661 /* ContentRow.swift */; };
-		6BBE5FCA282EE7CE0041B661 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC9282EE7CE0041B661 /* SwiftUIView.swift */; };
+		6BBE5FCA282EE7CE0041B661 /* ExploreTheBasicOfSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC9282EE7CE0041B661 /* ExploreTheBasicOfSwiftUI.swift */; };
 		6BBE5FCD282F074A0041B661 /* SwiftUIStackAndSpacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FCC282F074A0041B661 /* SwiftUIStackAndSpacers.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,13 +30,12 @@
 		6BBE5F67282D68870041B661 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BBE5F71282D6CB40041B661 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		6BBE5F73282D6CCD0041B661 /* ContentViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRouter.swift; sourceTree = "<group>"; };
-		6BBE5F78282D6EF20041B661 /* GuideToTheSwiftUILayoutSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideToTheSwiftUILayoutSystemView.swift; sourceTree = "<group>"; };
-		6BBE5F7A282D6F090041B661 /* GuideToTheSwiftUILayoutSystemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideToTheSwiftUILayoutSystemViewModel.swift; sourceTree = "<group>"; };
+		6BBE5F78282D6EF20041B661 /* GuideToTheSwiftUILayoutSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideToTheSwiftUILayoutSystem.swift; sourceTree = "<group>"; };
 		6BBE5FC0282D99A90041B661 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		6BBE5FC2282D99BB0041B661 /* SwiftBySindelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBySindelModel.swift; sourceTree = "<group>"; };
 		6BBE5FC4282D99ED0041B661 /* swiftBySindelData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swiftBySindelData.json; sourceTree = "<group>"; };
 		6BBE5FC6282D9A600041B661 /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
-		6BBE5FC9282EE7CE0041B661 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		6BBE5FC9282EE7CE0041B661 /* ExploreTheBasicOfSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTheBasicOfSwiftUI.swift; sourceTree = "<group>"; };
 		6BBE5FCC282F074A0041B661 /* SwiftUIStackAndSpacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStackAndSpacers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +50,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1CC64628315E390047C181 /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE5FBF282D99920041B661 /* Model */,
+				6BBE5FBC282D99590041B661 /* Resources */,
+				6BBE5F60282D68860041B661 /* SwiftbySyndellApp.swift */,
+				6BBE5F62282D68860041B661 /* ContentView.swift */,
+				6BBE5FC6282D9A600041B661 /* ContentRow.swift */,
+				6BBE5F71282D6CB40041B661 /* ContentViewModel.swift */,
+				6BBE5F73282D6CCD0041B661 /* ContentViewRouter.swift */,
+			);
+			path = Principal;
+			sourceTree = "<group>";
+		};
 		6BBE5F54282D68860041B661 = {
 			isa = PBXGroup;
 			children = (
@@ -71,16 +83,10 @@
 		6BBE5F5F282D68860041B661 /* SwiftbySyndell */ = {
 			isa = PBXGroup;
 			children = (
+				6B1CC64628315E390047C181 /* Principal */,
 				6BBE5FCB282F04380041B661 /* SwiftUIStackAndSpacers */,
 				6BBE5FC8282EE7900041B661 /* ExploreTheBasicOfSwiftUI */,
-				6BBE5FBF282D99920041B661 /* Model */,
-				6BBE5FBC282D99590041B661 /* Resources */,
 				6BBE5F6E282D68930041B661 /* GuideToTheSwiftUILayoutSystem */,
-				6BBE5F60282D68860041B661 /* SwiftbySyndellApp.swift */,
-				6BBE5F62282D68860041B661 /* ContentView.swift */,
-				6BBE5FC6282D9A600041B661 /* ContentRow.swift */,
-				6BBE5F71282D6CB40041B661 /* ContentViewModel.swift */,
-				6BBE5F73282D6CCD0041B661 /* ContentViewRouter.swift */,
 				6BBE5F64282D68870041B661 /* Assets.xcassets */,
 				6BBE5F66282D68870041B661 /* Preview Content */,
 			);
@@ -98,26 +104,9 @@
 		6BBE5F6E282D68930041B661 /* GuideToTheSwiftUILayoutSystem */ = {
 			isa = PBXGroup;
 			children = (
-				6BBE5F76282D6ED50041B661 /* ViewModel */,
-				6BBE5F75282D6ECF0041B661 /* View */,
+				6BBE5F78282D6EF20041B661 /* GuideToTheSwiftUILayoutSystem.swift */,
 			);
 			path = GuideToTheSwiftUILayoutSystem;
-			sourceTree = "<group>";
-		};
-		6BBE5F75282D6ECF0041B661 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6BBE5F78282D6EF20041B661 /* GuideToTheSwiftUILayoutSystemView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6BBE5F76282D6ED50041B661 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				6BBE5F7A282D6F090041B661 /* GuideToTheSwiftUILayoutSystemViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		6BBE5FBC282D99590041B661 /* Resources */ = {
@@ -140,7 +129,7 @@
 		6BBE5FC8282EE7900041B661 /* ExploreTheBasicOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				6BBE5FC9282EE7CE0041B661 /* SwiftUIView.swift */,
+				6BBE5FC9282EE7CE0041B661 /* ExploreTheBasicOfSwiftUI.swift */,
 			);
 			path = ExploreTheBasicOfSwiftUI;
 			sourceTree = "<group>";
@@ -228,12 +217,11 @@
 				6BBE5F74282D6CCD0041B661 /* ContentViewRouter.swift in Sources */,
 				6BBE5F61282D68860041B661 /* SwiftbySyndellApp.swift in Sources */,
 				6BBE5FC3282D99BB0041B661 /* SwiftBySindelModel.swift in Sources */,
-				6BBE5FCA282EE7CE0041B661 /* SwiftUIView.swift in Sources */,
+				6BBE5FCA282EE7CE0041B661 /* ExploreTheBasicOfSwiftUI.swift in Sources */,
 				6BBE5FC7282D9A600041B661 /* ContentRow.swift in Sources */,
 				6BBE5F72282D6CB40041B661 /* ContentViewModel.swift in Sources */,
-				6BBE5F79282D6EF20041B661 /* GuideToTheSwiftUILayoutSystemView.swift in Sources */,
+				6BBE5F79282D6EF20041B661 /* GuideToTheSwiftUILayoutSystem.swift in Sources */,
 				6BBE5FCD282F074A0041B661 /* SwiftUIStackAndSpacers.swift in Sources */,
-				6BBE5F7B282D6F090041B661 /* GuideToTheSwiftUILayoutSystemViewModel.swift in Sources */,
 				6BBE5FC1282D99A90041B661 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

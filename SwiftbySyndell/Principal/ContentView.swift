@@ -9,15 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var viewModel: ContentViewModel
+    
     var body: some View {
         
         NavigationView{
             List(swiftbySyndells){ data in
-                NavigationLink{
-                    viewModel.RecebeUmExercicio(nome: data.name)
-                } label: {
+                
+                NavigationLink(destination: {
+                    viewModel.RecebeUmExercicio(selecao: data.id)
+                }, label: {
                     ContentRow(swiftbysindelData: data)
                 }
+                )
+                               
+                               
             }
         }
     }

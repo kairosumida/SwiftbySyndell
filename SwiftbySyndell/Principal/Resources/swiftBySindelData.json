@@ -1,0 +1,23 @@
+[
+    {
+        "name": "A guide to the SwiftUI layout system",
+        "varName": "GuideToTheSwiftUILayoutSystem",
+        "startDate": "12/05/2022",
+        "finishedDate": "",
+        "id": 0,
+    },
+    {
+        "name": "SwiftUI Stack And Spacers",
+        "varName": "SwiftUIStackAndSpacers",
+        "startDate": "13/05/2022",
+        "finishedDate": "13/05/2022",
+        "id": 1,
+    },
+    {
+        "name": "Explore The Basic Of SwiftUI",
+        "varName": "ExploreTheBasicOfSwiftUI",
+        "startDate": "13/05/2022",
+        "finishedDate": "13/05/2022",
+        "id": 2,
+    }
+]
