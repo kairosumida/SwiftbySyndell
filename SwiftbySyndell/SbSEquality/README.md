@@ -1,6 +1,6 @@
-<h1>Equality</h1>
-Verificando se dois objetos ou valores são considerados iguais é definitivamente uma das operações mais comum na programação. Então nesse artigo, vamos dar uma olhada em como o Swift modela o conceito de igualdade e como esse modelo varia entre os tipos de valor e referencia
-Um dos aspectos mais interessantes na comparação com swift é que tudo é feito de uma maneira muito orientada a protocolos - o que significa que qualquer tipo pode se tornar comparaveis em conformidade com o protocolo Equatable, que pode ser feito assim:
+<h1>Equality</h1> <a href="https://www.swiftbysundell.com/basics/equality/">Veja no site </a>
+<p>Verificando se dois objetos ou valores são considerados iguais é definitivamente uma das operações mais comum na programação. Então nesse artigo, vamos dar uma olhada em como o Swift modela o conceito de igualdade e como esse modelo varia entre os tipos de valor e referencia
+Um dos aspectos mais interessantes na comparação com swift é que tudo é feito de uma maneira muito orientada a protocolos - o que significa que qualquer tipo pode se tornar comparaveis em conformidade com o protocolo Equatable, que pode ser feito assim:</p>
 
 ```Swift
 struct Article: Equatable {
