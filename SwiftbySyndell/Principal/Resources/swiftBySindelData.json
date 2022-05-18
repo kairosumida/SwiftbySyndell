@@ -19,5 +19,26 @@
         "startDate": "13/05/2022",
         "finishedDate": "13/05/2022",
         "id": 2,
+    },
+    {
+        "name": "Codable",
+        "varName": "SbSCodable",
+        "startDate": "14/05/2022",
+        "finishedDate": "15/05/2022",
+        "id": 3,
+    },
+    {
+        "name": "Equality",
+        "varName": "SbSEquality",
+        "startDate": "16/05/2022",
+        "finishedDate": "16/05/2022",
+        "id": 4,
+    }
+    {
+        "name": "Loops",
+        "varName": "SbSLoops",
+        "startDate": "18/05/2022",
+        "finishedDate": "18/05/2022",
+        "id": 5,
     }
 ]

@@ -25,6 +25,10 @@ class ContentViewModel : ObservableObject{
             return AnyView(SwiftUIStackAndSpacers())
         case 2:
             return AnyView(ExploreTheBasicOfSwiftUI())
+        case 3:
+            return AnyView(SbSCodable())
+        case 4:
+            return AnyView(SbSEquality())
         default:
             return AnyView(EmptyView())
         }
