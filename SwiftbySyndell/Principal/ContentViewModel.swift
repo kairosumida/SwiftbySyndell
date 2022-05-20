@@ -29,6 +29,10 @@ class ContentViewModel : ObservableObject{
             return AnyView(SbSCodable())
         case 4:
             return AnyView(SbSEquality())
+        case 5:
+            return AnyView(SbSLoops())
+        case 6:
+            return AnyView(SbSAvailabilityChecks())
         default:
             return AnyView(EmptyView())
         }

@@ -33,12 +33,19 @@
         "startDate": "16/05/2022",
         "finishedDate": "16/05/2022",
         "id": 4,
-    }
+    },
     {
         "name": "Loops",
         "varName": "SbSLoops",
         "startDate": "18/05/2022",
         "finishedDate": "18/05/2022",
         "id": 5,
+    },
+    {
+        "name": "Availability Check",
+        "varName": "SbSAvailabilityCheck",
+        "startDate": "20/05/2022",
+        "finishedDate": "20/05/2022",
+        "id": 6,
     }
 ]
