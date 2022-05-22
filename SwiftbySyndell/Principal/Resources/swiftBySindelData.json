@@ -11,48 +11,48 @@
         "varName": "SwiftUIStackAndSpacers",
         "startDate": "13/05/2022",
         "finishedDate": "13/05/2022",
-        "id": 1,
+        "id": 1
     },
     {
         "name": "Explore The Basic Of SwiftUI",
         "varName": "ExploreTheBasicOfSwiftUI",
         "startDate": "13/05/2022",
         "finishedDate": "13/05/2022",
-        "id": 2,
+        "id": 2
     },
     {
         "name": "Codable",
         "varName": "SbSCodable",
         "startDate": "14/05/2022",
         "finishedDate": "15/05/2022",
-        "id": 3,
+        "id": 3
     },
     {
         "name": "Equality",
         "varName": "SbSEquality",
         "startDate": "16/05/2022",
         "finishedDate": "16/05/2022",
-        "id": 4,
+        "id": 4
     },
     {
         "name": "Loops",
         "varName": "SbSLoops",
         "startDate": "18/05/2022",
         "finishedDate": "18/05/2022",
-        "id": 5,
+        "id": 5
     },
     {
         "name": "Availability Check",
         "varName": "SbSAvailabilityCheck",
         "startDate": "20/05/2022",
         "finishedDate": "20/05/2022",
-        "id": 6,
+        "id": 6
     },
     {
         "name": "Access Control",
         "varName": "SbSAccessControl",
-        "starDate": "22/05/2022"
-        "finishedDate": "",
-        "id": 7,
+        "startDate": "22/05/2022",
+        "finishedDate": "?",
+        "id": 7
     }
 ]

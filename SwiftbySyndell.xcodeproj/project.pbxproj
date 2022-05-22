@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6B1CC64B2831618F0047C181 /* SbSCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CC64A2831618F0047C181 /* SbSCodable.swift */; };
-		6B7D0B98283AFCFA006F784F /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D0B97283AFCFA006F784F /* AccessControl.swift */; };
+		6B7D0B9A283AFDBC006F784F /* SbSAccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D0B99283AFDBC006F784F /* SbSAccessControl.swift */; };
 		6BBE5F61282D68860041B661 /* SwiftbySyndellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F60282D68860041B661 /* SwiftbySyndellApp.swift */; };
 		6BBE5F63282D68860041B661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F62282D68860041B661 /* ContentView.swift */; };
 		6BBE5F65282D68870041B661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE5F64282D68870041B661 /* Assets.xcassets */; };
 		6BBE5F68282D68870041B661 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE5F67282D68870041B661 /* Preview Assets.xcassets */; };
 		6BBE5F72282D6CB40041B661 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F71282D6CB40041B661 /* ContentViewModel.swift */; };
-		6BBE5F74282D6CCD0041B661 /* ContentViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F73282D6CCD0041B661 /* ContentViewRouter.swift */; };
 		6BBE5F79282D6EF20041B661 /* GuideToTheSwiftUILayoutSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5F78282D6EF20041B661 /* GuideToTheSwiftUILayoutSystem.swift */; };
 		6BBE5FC1282D99A90041B661 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC0282D99A90041B661 /* ModelData.swift */; };
 		6BBE5FC3282D99BB0041B661 /* SwiftBySindelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE5FC2282D99BB0041B661 /* SwiftBySindelModel.swift */; };
@@ -29,14 +28,13 @@
 
 /* Begin PBXFileReference section */
 		6B1CC64A2831618F0047C181 /* SbSCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SbSCodable.swift; sourceTree = "<group>"; };
-		6B7D0B97283AFCFA006F784F /* AccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
+		6B7D0B99283AFDBC006F784F /* SbSAccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SbSAccessControl.swift; sourceTree = "<group>"; };
 		6BBE5F5D282D68860041B661 /* SwiftbySyndell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftbySyndell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBE5F60282D68860041B661 /* SwiftbySyndellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftbySyndellApp.swift; sourceTree = "<group>"; };
 		6BBE5F62282D68860041B661 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BBE5F64282D68870041B661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BBE5F67282D68870041B661 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BBE5F71282D6CB40041B661 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		6BBE5F73282D6CCD0041B661 /* ContentViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRouter.swift; sourceTree = "<group>"; };
 		6BBE5F78282D6EF20041B661 /* GuideToTheSwiftUILayoutSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideToTheSwiftUILayoutSystem.swift; sourceTree = "<group>"; };
 		6BBE5FC0282D99A90041B661 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		6BBE5FC2282D99BB0041B661 /* SwiftBySindelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBySindelModel.swift; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				6BBE5F62282D68860041B661 /* ContentView.swift */,
 				6BBE5FC6282D9A600041B661 /* ContentRow.swift */,
 				6BBE5F71282D6CB40041B661 /* ContentViewModel.swift */,
-				6BBE5F73282D6CCD0041B661 /* ContentViewRouter.swift */,
 			);
 			path = Principal;
 			sourceTree = "<group>";
@@ -85,7 +82,7 @@
 		6B7D0B96283AFCD8006F784F /* SbSAccessControl */ = {
 			isa = PBXGroup;
 			children = (
-				6B7D0B97283AFCFA006F784F /* AccessControl.swift */,
+				6B7D0B99283AFDBC006F784F /* SbSAccessControl.swift */,
 			);
 			path = SbSAccessControl;
 			sourceTree = "<group>";
@@ -269,13 +266,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BBE5F63282D68860041B661 /* ContentView.swift in Sources */,
-				6BBE5F74282D6CCD0041B661 /* ContentViewRouter.swift in Sources */,
-				6B7D0B98283AFCFA006F784F /* AccessControl.swift in Sources */,
 				6BCD86AF28384925005110C2 /* SbSAvailabilityChecks.swift in Sources */,
 				6BBE5F61282D68860041B661 /* SwiftbySyndellApp.swift in Sources */,
 				6B1CC64B2831618F0047C181 /* SbSCodable.swift in Sources */,
 				6BCD1BA5283539B300DE9F8E /* SbSLoops.swift in Sources */,
 				6BBE5FC3282D99BB0041B661 /* SwiftBySindelModel.swift in Sources */,
+				6B7D0B9A283AFDBC006F784F /* SbSAccessControl.swift in Sources */,
 				6BBE5FCA282EE7CE0041B661 /* ExploreTheBasicOfSwiftUI.swift in Sources */,
 				6BBE5FC7282D9A600041B661 /* ContentRow.swift in Sources */,
 				6BBE5F72282D6CB40041B661 /* ContentViewModel.swift in Sources */,
