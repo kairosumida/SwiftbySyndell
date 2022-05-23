@@ -102,7 +102,7 @@ class DiscountedPriceCalculator: PriceCalculator {
     ...
 }
 ```
-<p>Deixar a variavel privada, talvez não mude muita coisa, porem se queremos que uma variavel seja usada por quem a implementa e apenas dentro do seu bloco. Usamos o fileprivate, Por que deixar private não mostrará para uma classe que herda dessa e queira usar aquela variavel</p>
+<p>Deixar a variavel privada, talvez não mude muita coisa, porem se queremos que uma variavel seja usada por quem a implementa. Usamos o fileprivate, Por que deixar private não mostrará para uma classe que herda dessa e queira usar aquela variavel</p>
 
 ```Swift
 class DiscountedPriceCalculator: PriceCalculator {
@@ -111,4 +111,13 @@ class DiscountedPriceCalculator: PriceCalculator {
 }
 ```
 
-
+<h3>private</h3>
+<p> Deixa as propriedades, funcoes, extensoes, classes privada ou seja não podem ser acessadas por outros documentos</p>
+<h3>fileprivate</h3>
+<p>deixa uma declaracao visivel para quem quer definir isso, e deixa privado para todo os outros codigos</p>
+<h3>internal</h3>
+<p>é a forma padrão deixa visivel para todo o projeto. Porem coisas externas não tem acesso</p>
+<h3>public</h3>
+<p>Deixa liberado para qualquer codigo acessar, porem não é liberado para sobrescrita</p>
+<h3>open</h3>
+<p>permite que a classe seja uma subclasse e as funções podem ser sobrescritas
