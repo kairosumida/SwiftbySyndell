@@ -102,7 +102,7 @@ class DiscountedPriceCalculator: PriceCalculator {
     ...
 }
 ```
-<p>Não entendi</p>
+<p>Deixar a variavel privada, talvez não mude muita coisa, porem se queremos que uma variavel seja usada por quem a implementa e apenas dentro do seu bloco. Usamos o fileprivate, Por que deixar private não mostrará para uma classe que herda dessa e queira usar aquela variavel</p>
 
 ```Swift
 class DiscountedPriceCalculator: PriceCalculator {
@@ -112,7 +112,3 @@ class DiscountedPriceCalculator: PriceCalculator {
 ```
 
 
-
-
-
-<p>Apesar de termos criado o metodo, talvez fosse mais apropriado modificarmos o método calculatePrice. Para evitar de ter duas funções parecidas, e acabar causando confusão na hora de usa-las.
